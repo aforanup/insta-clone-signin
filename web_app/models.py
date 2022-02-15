@@ -10,8 +10,6 @@ class UserProfile(AbstractUser):
         verbose_name='profile picture'
     )
 
-    REQUIRED_FIELDS = ['username']
-
     class Meta:
         verbose_name = 'User Profile'
         verbose_name_plural = 'Users Profile'
